@@ -35,7 +35,7 @@ if(!isset($_SESSION["username"])){ header("Location: index.php"); }
 
     <div class="container-fluid">
         <div class="row mt-5 mb-5">
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4">
                 <div class="form-wrapper shadow mx-auto py-5">
                     <h3 class="highest_text">VOEG EEN NIEUWE ACTIVITEIT TOE</h3>
                     <form action="actions/add-activity.php" method="post">
@@ -53,16 +53,26 @@ if(!isset($_SESSION["username"])){ header("Location: index.php"); }
                     <div class="col-md-4">
                         <h1 class="highest_text">Activiteiten</h1>
                     </div>
-                    <form method="post" action="activiteiten.php" class="col-md-8 pt-2 text-right">
-                        <input type="radio" name="filter" id="show-all" class="form-check-input" value="all" onchange="this.form.submit()" <?php echo !isset($_POST["filter"]) || $_POST["filter"] == "all" ? "checked" : "" ?>>
-                        <label for="show-all" class="form-check-label mr-5">Toon alle</label>
-                        <input type="radio" name="filter" id="show-upcoming" class="form-check-input" value="upcoming" onchange="this.form.submit()" <?php echo isset($_POST["filter"]) && $_POST["filter"] == "upcoming" ? "checked" : "" ?>>
-                        <label for="show-upcoming" class="form-check-label mr-5">Toon komende</label>
-                        <input type="radio" name="filter" id="show-week" class="form-check-input" value="week" onchange="this.form.submit()" <?php echo isset($_POST["filter"]) && $_POST["filter"] == "week" ? "checked" : "" ?>>
-                        <label for="show-week" class="form-check-label mr-5">Toon deze week</label>
-                        <input type="radio" name="filter" id="show-day" class="form-check-input" value="day" onchange="this.form.submit()" <?php echo isset($_POST["filter"]) && $_POST["filter"] == "day" ? "checked" : "" ?>>
-                        <label for="show-day" class="form-check-label mr-5">Toon vandaag</label>
-                    </form>
+                    <div class="col-md-8">
+                        <form method="post" action="activiteiten.php" class="row filters pt-2 text-right">
+                            <div class="radio-group col-md-6 col-lg-3">
+                                <input type="radio" name="filter" id="show-all" class="form-check-input" value="all" onchange="this.form.submit()" <?php echo !isset($_POST["filter"]) || $_POST["filter"] == "all" ? "checked" : "" ?>>
+                                <label for="show-all" class="form-check-label">Toon alle</label>
+                            </div>
+                            <div class="radio-group col-md-6 col-lg-3">
+                                <input type="radio" name="filter" id="show-upcoming" class="form-check-input" value="upcoming" onchange="this.form.submit()" <?php echo isset($_POST["filter"]) && $_POST["filter"] == "upcoming" ? "checked" : "" ?>>
+                                <label for="show-upcoming" class="form-check-label">Toon komende</label>
+                            </div>
+                            <div class="radio-group col-md-6 col-lg-3">
+                                <input type="radio" name="filter" id="show-week" class="form-check-input" value="week" onchange="this.form.submit()" <?php echo isset($_POST["filter"]) && $_POST["filter"] == "week" ? "checked" : "" ?>>
+                                <label for="show-week" class="form-check-label">Toon deze week</label>
+                            </div>
+                            <div class="radio-group col-md-6 col-lg-3">
+                                <input type="radio" name="filter" id="show-day" class="form-check-input" value="day" onchange="this.form.submit()" <?php echo isset($_POST["filter"]) && $_POST["filter"] == "day" ? "checked" : "" ?>>
+                                <label for="show-day" class="form-check-label">Toon vandaag</label>
+                            </div>
+                        </form>
+                    </div>
                 </div>
 
                 <div class="row px-3">

@@ -46,3 +46,9 @@
     color: red;
     z-index: 9999 !important;
 }
+
+@media (max-width: 576px) {
+    .filters{
+        text-align: left !important;
+    }
+}
