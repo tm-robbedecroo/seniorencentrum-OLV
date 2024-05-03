@@ -10,21 +10,20 @@ if(!isset($_SESSION["username"])){ header("Location: index.php"); }
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ADMIN | Seniorencentrum OLV.</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/responsive.css">
-    <link rel="stylesheet" href="../css/bootstrap-icons.min.css">
 
     <link rel="stylesheet" type="text/css" href="../css/fonts/bootstrap-icons.woff"/>
     <link rel="stylesheet" type="text/css" href="../css/fonts/bootstrap-icons.woff2"/>
+    <link rel="stylesheet" href="../css/bootstrap-icons.min.css">
 
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="icon" href="../images/favicon.png" type="image/gif" />
+    <title>ADMIN | Seniorencentrum OLV.</title>
 </head>
 <body>
 

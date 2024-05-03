@@ -5,10 +5,10 @@
     <div class="about_section my-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mobile mb-4">
+                <div class="col-md-6 mobile mb-4" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/assistentiewoningen.jpg"></div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-right">
                     <div class="about_title">
                         <h1 class="highest_text">Assistentiewoningen</h1>
                         <h4 class="about_text">‘Assistentieflats met 24u/24u hulpverlening i.g.v. noodsituaties’</h4>
@@ -32,7 +32,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 desktop">
+                <div class="col-md-6 desktop" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/assistentiewoningen.jpg"></div>
                 </div>
             </div>
@@ -190,5 +190,13 @@
             </div>
         </div>
     </section>
-    <!--Einde WZC-->
+
+<script>
+    AOS.init({
+        duration: 1000,
+        offset: 100,
+        once: true
+    });
+</script>
+
 <?php include 'includes/footer.php'; ?>

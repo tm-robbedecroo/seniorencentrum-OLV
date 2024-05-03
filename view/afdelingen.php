@@ -4,10 +4,10 @@
 <div class="about_section mt-5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4" data-aos="fade-right">
                 <div class="image_2" href=""><img src="./images/woonzorgflat.jpg"></div>
             </div>
-            <div class="col-md-6 vertical-center">
+            <div class="col-md-6 vertical-center" data-aos="fade-left">
                 <div class="mirrored_title">
                     <h4 class="about_text mb-0">Kamers</h4>
                     <h1 class="highest_text mt-0">Woonzorgkamer</h1>
@@ -40,10 +40,10 @@
 <div class="about_section mt-5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 mobile mb-4">
+            <div class="col-md-6 mobile mb-4" data-aos="fade-left">
                 <div class="image_2" href="#"><img src="./images/tijdelijkverblijf.jpg"></div>
             </div>
-            <div class="col-md-6 vertical-center">
+            <div class="col-md-6 vertical-center" data-aos="fade-right">
                 <div class="about_title">
                     <h4 class="about_text">Soorten verblijf</h4>
                     <h1 class="highest_text">Tijdelijk verblijf</h1>
@@ -58,7 +58,7 @@
                     <div class="read_bt mt-3"><a href="tijdelijkverblijf.php">Lees meer</a></div>
                 </div>
             </div>
-            <div class="col-md-6 desktop">
+            <div class="col-md-6 desktop" data-aos="fade-left">
                 <div class="image_2" href="#"><img src="./images/tijdelijkverblijf.jpg"></div>
             </div>
         </div>
@@ -68,10 +68,10 @@
 <div class="about_section mt-5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 mb-4">
+            <div class="col-md-6 mb-4" data-aos="fade-right">
                 <div class="image_2" href="#"><img src="./images/we-are-never-too-old-play-cards.jpg"></div>
             </div>
-            <div class="col-md-6 vertical-center">
+            <div class="col-md-6 vertical-center" data-aos="fade-left">
                 <div class="about_title">
                     <h4 class="about_text">Soorten verblijf</h4>
                     <h1 class="highest_text">Dag verblijf </h1>
@@ -96,10 +96,10 @@
 <div class="about_section mt-5 mb-5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 mobile mb-4">
+            <div class="col-md-6 mobile mb-4" data-aos="fade-left">
                 <div class="image_2" href="#"><img src="./images/assistentiewoningen.jpg"></div>
             </div>
-            <div class="col-md-6 vertical-center">
+            <div class="col-md-6 vertical-center" data-aos="fade-right">
                 <div class="about_title">
                     <h4 class="about_text">Diensten</h4>
                     <h1 class="highest_text">Assistentiewoningen</h1>
@@ -120,11 +120,19 @@
                     <div class="read_bt mt-3"><a href="assistentiewoningen.php">Lees meer</a></div>
                 </div>
             </div>
-            <div class="col-md-6 desktop">
+            <div class="col-md-6 desktop" data-aos="fade-left">
                 <div class="image_2" href="#"><img src="./images/assistentiewoningen.jpg"></div>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+    AOS.init({
+        duration: 1000,
+        offset: 100,
+        once: true
+    })
+</script>
 
 <?php include 'includes/footer.php'; ?>

@@ -5,10 +5,10 @@
     <div class="about_section my-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mobile mb-4">
+                <div class="col-md-6 mobile mb-4" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/elderly-indian-man-retirement-house.jpg"></div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-right">
                     <div class="about_title">
                         <h1 class="highest_text">Centrum voor dagverzorging</h1>
                         <h4 class="about_text">‘Zinvolle dagbesteding met professionele ondersteuning’</h4>
@@ -23,7 +23,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 desktop">
+                <div class="col-md-6 desktop" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/elderly-indian-man-retirement-house.jpg"></div>
                 </div>
             </div>
@@ -62,11 +62,11 @@
     <div class="about_section my-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mb-4">
+                <div class="col-md-6 mb-4" data-aos="fade-right">
                     <div class="image_2" href="#"><img src="./images/elderly-couple-comfortable-sofas-receiving-assistance-from-helpful-resort-employee-retired-senior-man-receiving-cup-coffee-from-african-american-waiter-while-talking-his-wife.jpg">
                     </div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-left">
                     <div class="about_title">
                         <h1 class="highest_text">Inbegerepen in de dagprijs </h1><br>
                         <ol>
@@ -218,5 +218,13 @@
             </div>
         </div>
     </section>
-    <!--Einde WZC-->
+
+<script>
+    AOS.init({
+        duration: 1000,
+        offset: 100,
+        once: true
+    })
+</script>
+
 <?php include 'includes/footer.php'; ?>

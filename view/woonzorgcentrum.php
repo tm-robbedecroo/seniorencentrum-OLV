@@ -5,10 +5,10 @@
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mobile mb-4">
+                <div class="col-md-6 mobile mb-4" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/elderly-indian-man-retirement-house.jpg"></div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-right">
                     <div class="about_title">
                         <h1 class="highest_text">Woonzorgkamer</h1>
                         <p class="lorem_text">Wanneer het voor ouderen moeilijk wordt om zelfstandig te wonen,
@@ -28,7 +28,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 desktop">
+                <div class="col-md-6 desktop" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/elderly-indian-man-retirement-house.jpg"></div>
                 </div>
             </div>
@@ -39,13 +39,12 @@
     <div class="about_section my-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mb-4">
+                <div class="col-md-6 mb-4" data-aos="fade-right">
                     <div class="image_2" href="#"><img src="./images/meeting-with-my-mother-always-make-me-happy.jpg">
                     </div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-left">
                     <div class="about_title">
-
                         <h1 class="highest_text">Woonzorgflat</h1>
                         <p class="lorem_text">Een woonzorgflat is een uitstekende keuze voor ouderen die
                             behoefte hebben aan meer ruimte en continue zorg. Deze woonvorm combineert een
@@ -110,10 +109,10 @@
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mobile mb-4">
+                <div class="col-md-6 mobile mb-4" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/elderly-couple-comfortable-sofas-receiving-assistance-from-helpful-resort-employee-retired-senior-man-receiving-cup-coffee-from-african-american-waiter-while-talking-his-wife.jpg"></div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-right">
                     <div class="about_title">
                         <h1 class="highest_text">Inbegerepen in de dagprijs </h1>
                         <ol>
@@ -136,7 +135,7 @@
                         </ol>
                     </div>
                 </div>
-                <div class="col-md-6 desktop">
+                <div class="col-md-6 desktop" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/elderly-couple-comfortable-sofas-receiving-assistance-from-helpful-resort-employee-retired-senior-man-receiving-cup-coffee-from-african-american-waiter-while-talking-his-wife.jpg"></div>
                 </div>
             </div>
@@ -147,10 +146,10 @@
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mb-4">
+                <div class="col-md-6 mb-4" data-aos="fade-right">
                     <div class="image_2" href="#"><img src="./images/senior-man-sitting-wheelchair-doctor.jpg"></div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-left">
                     <div class="about_title">
 
                         <h1 class="highest_text">Niet inbegerepen in de dagprijs </h1>
@@ -176,10 +175,10 @@
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mobile mb-4">
+                <div class="col-md-6 mobile mb-4" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/son-helping-his-father-wheelchair-near-nursing-home.jpg"></div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-right">
                     <div class="about_title">
                         <h1 class="highest_text">Bezoekuren</h1>
                         <p class="lorem_text">Bezoekers zijn op elk tijdstip van de dag welkom.
@@ -191,7 +190,7 @@
                             familiefeest enz. wordt gevraagd om op voorhand te verwittigen en de afwezigheid te melden.</p>
                     </div>
                 </div>
-                <div class="col-md-6 desktop">
+                <div class="col-md-6 desktop" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/son-helping-his-father-wheelchair-near-nursing-home.jpg"></div>
                 </div>
             </div>
@@ -202,13 +201,12 @@
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mb-4">
+                <div class="col-md-6 mb-4" data-aos="fade-right">
                     <div class="image_2" href="#"><img src="./images/happy-nurse-give-pills-assist-encourage-elderly-senior-man-eat-medicine-after-breakfast-bed-bedroom-nursing-home.jpg">
                     </div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-left">
                     <div class="mirrored_title">
-
                         <h1 class="highest_text">Diensten en zorgverlening</h1>
                         <p class="lorem_text">Je wordt verzorgd door een gekwalificeerd team medewerkers,
                             bestaande uit verpleegkundigen en zorgkundigen. Zij staan je bij in alle omstandigheden
@@ -238,10 +236,10 @@
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mobile mb-4">
+                <div class="col-md-6 mobile mb-4" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/nurse-doing-physical-therapy-with-senior-couple-home-assistance-physiotherapy-healthy-lifestyle-old-person-training-healthy-lifestyle.jpg"></div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-right">
                     <div class="about_title">
                         <h1 class="highest_text">Kinesitherapie</h1>
                         <p class="lorem_text">De kinesisten spelen een essentiële rol in het welzijn van onze bewoners
@@ -260,7 +258,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 desktop">
+                <div class="col-md-6 desktop" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/nurse-doing-physical-therapy-with-senior-couple-home-assistance-physiotherapy-healthy-lifestyle-old-person-training-healthy-lifestyle.jpg"></div>
                 </div>
             </div>
@@ -271,10 +269,10 @@
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mb-4">
+                <div class="col-md-6 mb-4" data-aos="fade-right">
                     <div class="image_2" href="#"><img src="./images/elderly-friends-playing-petanque.jpg"></div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-left">
                     <div class="about_title">
                         <h1 class="highest_text">Team ergo</h1>
                         <p class="lorem_text">De ergotherapeuten doen er alles aan om met de bewoner een maximale
@@ -300,10 +298,10 @@
     <div class="about_section my-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mobile mb-4">
+                <div class="col-md-6 mobile mb-4" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/elderly-couple-raising-their-hats-air.jpg"></div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-right">
                     <div class="about_title">
                         <h1 class="highest_text">Team Wonen & Leven</h1>
                         <p class="lorem_text">Het team Wonen&Leven stimuleert de mogelijkheden van de bewoners.
@@ -326,7 +324,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 desktop">
+                <div class="col-md-6 desktop" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/elderly-couple-raising-their-hats-air.jpg"></div>
                 </div>
             </div>
@@ -457,5 +455,13 @@
             </div>
         </div>
     </section>
-    <!--Einde WZC-->
+
+<script>
+    AOS.init({
+        duration: 1000,
+        offset: 100,
+        once: true
+    })
+</script>
+
 <?php include 'includes/footer.php'; ?>

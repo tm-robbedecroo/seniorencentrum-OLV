@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/vanilla-calendar.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/aos.css">
     <!-- FONTS -->
     <link rel="stylesheet" type="text/css" href="css/fonts/bootstrap-icons.woff"/>
     <link rel="stylesheet" type="text/css" href="css/fonts/bootstrap-icons.woff2"/>
@@ -22,6 +23,7 @@
     <script src="js/jquery-3.7.1.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/vanilla-calendar.min.js"></script>
+    <script src="js/aos.js"></script>
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/favicon.png" type="image/gif"/>

@@ -7,10 +7,10 @@
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mobile mb-4">
+                <div class="col-md-6 mobile mb-4" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/tijdelijkverblijf.jpg" alt="Tijdelijk verblijf"></div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-right">
                     <div class="about_title">
                         <h4 class="about_text">Over SOLV</h4>
                         <h1 class="highest_text">Tijdelijk verblijf</h1>
@@ -27,7 +27,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 desktop">
+                <div class="col-md-6 desktop" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/tijdelijkverblijf.jpg" alt="Tijdelijk verblijf"></div>
                 </div>
             </div>
@@ -38,10 +38,10 @@
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mb-4">
+                <div class="col-md-6 mb-4" data-aos="fade-right">
                     <div class="image_2" href="#"><img src="./images/old-patient-suffering-from-parkinson.jpg" alt="Inbegrepen in de dagprijs"></div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-left">
                     <div class="about-title">
                         <h1 class="highest_text">Inbegerepen in de dagprijs </h1>
                         <ol>
@@ -72,10 +72,10 @@
     <div class="about_section my-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 mobile mb-4">
+                <div class="col-md-6 mobile mb-4" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/old-man-calling.jpg" alt="Niet inbegrepen in de dagprijs"></div>
                 </div>
-                <div class="col-md-6 vertical-center">
+                <div class="col-md-6 vertical-center" data-aos="fade-right">
                     <div class="about_title">
                         <h1 class="highest_text">Niet inbegerepen in de dagprijs </h1>
                         <ol>
@@ -91,7 +91,7 @@
                             <li>&#8226 Kiné (afhankelijk van de zorggraad)</li>
                     </div>
                 </div>
-                <div class="col-md-6 desktop">
+                <div class="col-md-6 desktop" data-aos="fade-left">
                     <div class="image_2" href="#"><img src="./images/old-man-calling.jpg" alt="Niet inbegrepen in de dagprijs"></div>
                 </div>
             </div>
@@ -101,7 +101,7 @@
     <div class="about-section mb-5">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12">
+                <div class="col-md-8">
                     <h1 class="text-center">Contactformulier</h1>
                     <form action="submit.php" method="post" enctype="multipart/form-data">
                         <!-- Gegevens aanvrager -->
@@ -226,5 +226,13 @@
             </div>
         </div>
     </div>
-    <!--Einde TV-->
+
+<script>
+    AOS.init({
+        duration: 1000,
+        offset: 100,
+        once: true
+    })
+</script>
+
 <?php include 'includes/footer.php'; ?>
