@@ -2,7 +2,7 @@
 <?php include("actions/connect.php"); ?>
 <?php
 session_start();
-if(!isset($_SESSION["username"])){ header("Location: index.php"); }
+if(!isset($_SESSION["username"])) header("Location: index.php");
 ?>
 <html lang="en">
 <head>
@@ -30,6 +30,9 @@ if(!isset($_SESSION["username"])){ header("Location: index.php"); }
     <nav class="navbar navbar-light bg-light d-flex justify-content-center">
         <div class="container">
             <a class="navbar-brand mx-auto" href="../index.php"><img src="../images/solv-tekst-white.png"></a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link hover-underline-animation" href="actions/logout.php"><i class="bi bi-box-arrow-left"></i> Uitloggen</a></li>
+            </ul>
         </div>
     </nav>
 

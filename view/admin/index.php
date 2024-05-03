@@ -1,5 +1,9 @@
 <!doctype html>
 <?php include("actions/connect.php"); ?>
+<?php
+session_start();
+if(isset($_SESSION["username"])) header("Location: activiteiten.php");
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -67,6 +71,8 @@
                         <input type="password" class="form-control" id="password" name="password" placeholder="Wachtwoord" required>
                     </div>
                     <button type="submit" class="btn btn-primary w-100">Inloggen</button>
+                    <br><br>
+                    <a href="../">Verlaat admin-portaal</a>
                 </form>
             </div>
         </div>
