@@ -17,7 +17,7 @@
 
     <?php
 
-    $qry = "SELECT * FROM tbl_activities ORDER BY date ASC";
+    $qry = "SELECT * FROM tbl_activities ORDER BY date ASC, time ASC";
     $result = $conn->query($qry);
 
     $activities = array();
@@ -35,21 +35,28 @@
     document.addEventListener('DOMContentLoaded', function() {
 
         const elem = document.getElementById("activity-details");
-        const today = new Date().toISOString().slice(0,10);
+        const today = new Date();
 
-        const activity = activities.filter(a => a.date === today);
+        const activity = activities.filter(a => a.date === today.toISOString().slice(0,10));
 
         if(activity.length === 0) {
-            elem.innerHTML = "<h1 class='highest_text'>Op deze dag is er geen activiteit gepland.</h1>";
+            elem.innerHTML = "" +
+                "<div class='day-activity'>" +
+                    "<p class='mx-0 my-0'>" + today.toLocaleDateString("nl-BE") +
+                    "<h1 class='highest_text'>Op deze dag is er geen activiteit gepland.</h1>" +
+                "</div>";
             return;
         }
 
-        const date = new Date(activity[0].date);
-
-        elem.innerHTML = "" +
-            "<h1 class='highest_text'>" + activity[0].name + "</h1>" +
-            "<p class='m-0'>" + activity[0].description + "</p>" +
-            "<p class='mx-0'>" + date.toLocaleDateString("en-US") + " - " + (activity[0].time === "" ? "Hele dag" : activity[0].time) + "</p>";
+        activity.map(function(a) {
+            const date = new Date(a.date);
+            elem.innerHTML += "" +
+                "<div class='day-activity mb-4'>" +
+                    "<p class='mx-0 my-0'>" + date.toLocaleDateString("nl-BE") + " - " + (a.time === "" ? "Hele dag" : a.time) + "</p>" +
+                    "<h1 class='highest_text mt-0'>" + a.name + "</h1>" +
+                    "<p class='m-0'>" + a.description + "</p>" +
+                "</div>";
+        })
     });
 
     const options = {
@@ -58,17 +65,28 @@
                 const elem = document.getElementById("activity-details");
                 const activity = activities.filter(a => a.date === self.selectedDates[0])
 
+                const clicked_date = new Date(self.selectedDates[0]);
+
                 if(activity.length === 0) {
-                    elem.innerHTML = "<h1 class='highest_text'>Op deze dag is er geen activiteit gepland.</h1>";
+                    elem.innerHTML = "" +
+                        "<div class='day-activity'>" +
+                            "<p class='mx-0 my-0'>" + clicked_date.toLocaleDateString("nl-BE") +
+                            "<h1 class='highest_text'>Op deze dag is er geen activiteit gepland.</h1>" +
+                        "</div>";
                     return;
                 }
 
-                const date = new Date(activity[0].date);
+                elem.innerHTML = "";
 
-                elem.innerHTML = "" +
-                    "<h1 class='highest_text'>" + activity[0].name + "</h1>" +
-                    "<p class='m-0'>" + activity[0].description + "</p>" +
-                    "<p class='mx-0'>" + date.toLocaleDateString("en-US") + " - " + (activity[0].time === "" ? "Hele dag" : activity[0].time) + "</p>";
+                activity.map(function(a) {
+                    const date = new Date(a.date);
+                    elem.innerHTML += "" +
+                        "<div class='day-activity mb-4'>" +
+                            "<p class='mx-0 my-0'>" + date.toLocaleDateString("nl-BE") + " - " + (a.time === "" ? "Hele dag" : a.time) + "</p>" +
+                            "<h1 class='highest_text mt-0'>" + a.name + "</h1>" +
+                            "<p class='m-0'>" + a.description + "</p>" +
+                        "</div>";
+                })
             },
         },
         settings: {
