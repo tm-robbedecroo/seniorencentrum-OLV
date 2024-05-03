@@ -1,3 +1,4 @@
+<?php $page_name = "home"; ?>
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/navigation.php'; ?>
 
@@ -172,8 +173,8 @@
                 </div>
                 <div class="col-md-6 vertical-center" data-aos="fade-left">
                     <div class="mirrored_title">
-                        <h4 class="about_text mb-0">Kamers</h4>
-                        <h1 class="highest_text mt-0">Woonzorgkamer</h1>
+                        <h4 class="about_text mb-0">Afdelingen</h4>
+                        <h1 class="highest_text mt-0" id="woonzorgkamer">Woonzorgkamer</h1>
                         <p class="lorem_text">Wanneer ouderen merken dat zelfstandig wonen steeds
                             moeilijker wordt,
                             kan een woonzorgkamer een gepaste oplossing bieden. Dit type aangepaste woonvorm biedt
@@ -183,7 +184,7 @@
                             en ondersteunende omgeving waarin ouderen niet alleen essentiële zorg ontvangen, maar ook
                             kunnen genieten
                             van een gevoel van veiligheid, geborgenheid en gemeenschap.</p>
-                        <h1 class="highest_text mt-3">Woonzorgflat </h1>
+                        <h1 class="highest_text mt-3" id="woonzorgflat">Woonzorgflat </h1>
                         <p class="lorem_text">Voor diegenen die streven naar een continue zorgservice zoals die van een
                             woonzorgkamer
                             maar behoefte hebben aan meer ruimte, biedt de woonzorgflat een geschikte oplossing. Met een
@@ -210,8 +211,8 @@
                 </div>
                 <div class="col-md-6 vertical-center" data-aos="fade-right">
                     <div class="about_title">
-                        <h4 class="about_text">Soorten verblijf</h4>
-                        <h1 class="highest_text">Tijdelijk verblijf</h1>
+                        <h4 class="about_text">Afdelingen</h4>
+                        <h1 class="highest_text" id="tijdelijkverblijf">Tijdelijk verblijf</h1>
                         <p class="lorem_text">Wens je na een ziekenhuisopname nog extra zorgondersteuning? Gaan je
                             familieleden op
                             reis of zijn ze tijdelijk ziek waardoor ze even niet kunnen helpen? Wordt de zorg voor uw
@@ -240,8 +241,8 @@
                 </div>
                 <div class="col-md-6 vertical-center" data-aos="fade-left">
                     <div class="about_title">
-                        <h4 class="about_text">Soorten verblijf</h4>
-                        <h1 class="highest_text">Dag verblijf </h1>
+                        <h4 class="about_text">Afdelingen</h4>
+                        <h1 class="highest_text" id="dagverblijf">Dagverblijf</h1>
                         <p class="lorem_text">Het centrum voor dagverzorging (CVD) bevindt zich naast het
                             woonzorgcentrum. Ouderen
                             kunnen er tijdens weekdagen van 8u30 tot 16u30 verblijven voor een aangename (halve) dag in
@@ -270,8 +271,8 @@
                 </div>
                 <div class="col-md-6 vertical-center" data-aos="fade-right">
                     <div class="about_title">
-                        <h4 class="about_text">Diensten</h4>
-                        <h1 class="highest_text">Assistentiewoningen</h1>
+                        <h4 class="about_text">Afdelingen</h4>
+                        <h1 class="highest_text" id="assistentiewoningen">Assistentiewoningen</h1>
                         <p class="lorem_text">Onze assistentiewoningen bieden zelfstandig wonen aan voor personen die
                             voldoende
                             zelfredzaam zijn, maar toch in een veilige omgeving willen wonen met de nodige diensten en

@@ -1,3 +1,4 @@
+<?php $page_name = "contact"; ?>
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/navigation.php'; ?>
 

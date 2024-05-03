@@ -1,3 +1,4 @@
+<?php $page_name = "agenda" ?>
 <?php include "admin/actions/connect.php"; ?>
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/navigation.php'; ?>
