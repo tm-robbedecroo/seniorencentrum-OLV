@@ -127,12 +127,4 @@
     </div>
 </div>
 
-<script>
-    AOS.init({
-        duration: 1000,
-        offset: 100,
-        once: true
-    })
-</script>
-
 <?php include 'includes/footer.php'; ?>

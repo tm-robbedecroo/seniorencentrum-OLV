@@ -131,6 +131,16 @@
   </div>
 
 </div>
+
+<script>
+    AOS.init({
+        duration: 1000,
+        offset: -100,
+        once: true,
+        delay: 0
+    });
+</script>
+
 </body>
 
 </html>

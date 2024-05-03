@@ -426,13 +426,6 @@
     <script defer>
         $(window).on("load", function() {
 
-            AOS.init({
-                duration: 1000,
-                offset: 100,
-                once: true,
-                delay: 0
-            });
-
             $(".activity-carousel").owlCarousel({
                 items: 1,
                 loop: true,
