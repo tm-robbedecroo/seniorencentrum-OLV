@@ -5,6 +5,9 @@
     <div class="about_section my-5">
         <div class="container-fluid">
             <div class="row">
+                <div class="col-md-6 mobile mb-4">
+                    <div class="image_2" href="#"><img src="./images/assistentiewoningen.jpg"></div>
+                </div>
                 <div class="col-md-6 vertical-center">
                     <div class="about_title">
                         <h1 class="highest_text">Assistentiewoningen</h1>
@@ -29,7 +32,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 desktop">
                     <div class="image_2" href="#"><img src="./images/assistentiewoningen.jpg"></div>
                 </div>
             </div>

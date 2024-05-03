@@ -7,9 +7,11 @@
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
+                <div class="col-md-6 mobile mb-4">
+                    <div class="image_2" href="#"><img src="./images/tijdelijkverblijf.jpg" alt="Tijdelijk verblijf"></div>
+                </div>
                 <div class="col-md-6 vertical-center">
                     <div class="about_title">
-
                         <h4 class="about_text">Over SOLV</h4>
                         <h1 class="highest_text">Tijdelijk verblijf</h1>
                         <p class="lorem_text">Wens je extra zorgondersteuning na een ziekenhuisopname of
@@ -25,9 +27,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="image_2" href="#"><img src="./images/tijdelijkverblijf.jpg" alt="Tijdelijk verblijf">
-                    </div>
+                <div class="col-md-6 desktop">
+                    <div class="image_2" href="#"><img src="./images/tijdelijkverblijf.jpg" alt="Tijdelijk verblijf"></div>
                 </div>
             </div>
         </div>
@@ -37,9 +38,8 @@
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="image_2" href="#"><img src="./images/old-patient-suffering-from-parkinson.jpg"
-                                                       alt="Inbegrepen in de dagprijs"></div>
+                <div class="col-md-6 mb-4">
+                    <div class="image_2" href="#"><img src="./images/old-patient-suffering-from-parkinson.jpg" alt="Inbegrepen in de dagprijs"></div>
                 </div>
                 <div class="col-md-6 vertical-center">
                     <div class="about-title">
@@ -72,6 +72,9 @@
     <div class="about_section my-5">
         <div class="container-fluid">
             <div class="row">
+                <div class="col-md-6 mobile mb-4">
+                    <div class="image_2" href="#"><img src="./images/old-man-calling.jpg" alt="Niet inbegrepen in de dagprijs"></div>
+                </div>
                 <div class="col-md-6 vertical-center">
                     <div class="about_title">
                         <h1 class="highest_text">Niet inbegerepen in de dagprijs </h1>
@@ -88,7 +91,7 @@
                             <li>&#8226 Kiné (afhankelijk van de zorggraad)</li>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 desktop">
                     <div class="image_2" href="#"><img src="./images/old-man-calling.jpg" alt="Niet inbegrepen in de dagprijs"></div>
                 </div>
             </div>

@@ -5,6 +5,9 @@
     <div class="about_section my-5">
         <div class="container-fluid">
             <div class="row">
+                <div class="col-md-6 mobile mb-4">
+                    <div class="image_2" href="#"><img src="./images/elderly-indian-man-retirement-house.jpg"></div>
+                </div>
                 <div class="col-md-6 vertical-center">
                     <div class="about_title">
                         <h1 class="highest_text">Centrum voor dagverzorging</h1>
@@ -20,7 +23,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-md-6 elements-center">
+                <div class="col-md-6 desktop">
                     <div class="image_2" href="#"><img src="./images/elderly-indian-man-retirement-house.jpg"></div>
                 </div>
             </div>
@@ -59,9 +62,8 @@
     <div class="about_section my-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="image_2" href="#"><img
-                                src="./images/elderly-couple-comfortable-sofas-receiving-assistance-from-helpful-resort-employee-retired-senior-man-receiving-cup-coffee-from-african-american-waiter-while-talking-his-wife.jpg">
+                <div class="col-md-6 mb-4">
+                    <div class="image_2" href="#"><img src="./images/elderly-couple-comfortable-sofas-receiving-assistance-from-helpful-resort-employee-retired-senior-man-receiving-cup-coffee-from-african-american-waiter-while-talking-his-wife.jpg">
                     </div>
                 </div>
                 <div class="col-md-6 vertical-center">

@@ -340,7 +340,7 @@
                             $today       = date("Y-m-d", strtotime("now"));
                             $next_sunday = date("Y-m-d", strtotime($prev_monday." + 6 days"));
 
-                            $qry = "SELECT * FROM tbl_activities WHERE date >= '".$today."' AND date <= '".$next_sunday."' ORDER BY date ASC;";
+                            $qry = "SELECT * FROM tbl_activities WHERE date >= '".$today."' AND date <= '".$next_sunday."' ORDER BY date ASC, time ASC;";
                             $result = $conn->query($qry);
 
                             while ($row = $result->fetch_assoc()) {
