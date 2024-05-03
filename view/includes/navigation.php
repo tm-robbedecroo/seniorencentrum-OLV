@@ -8,9 +8,9 @@
         <div class="collapse navbar-collapse" id="nav-items-collapse">
             <div class="navbar-nav">
                 <a class="nav-item nav-link hover-underline-animation active" href="index.php">Home</a>
-                <a class="nav-item nav-link hover-underline-animation" href="overons.php">Over ons</a>
                 <a class="nav-item nav-link hover-underline-animation" href="afdelingen.php">Afdelingen</a>
                 <a class="nav-item nav-link hover-underline-animation" href="agenda.php">Agenda</a>
+                <a class="nav-item nav-link hover-underline-animation" href="overons.php">Over ons</a>
                 <a class="nav-item nav-link hover-underline-animation" href="contact.php">Contact</a>
             </div>
         </div>
