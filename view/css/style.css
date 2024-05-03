@@ -27,6 +27,7 @@
 
 html {
      scroll-behavior: smooth;
+     overflow-x: hidden;
 }
 
 body {
@@ -1063,6 +1064,10 @@ button {
 .vanilla-calendar {
      min-width: 350px;
      height: 350px !important;
+}
+
+.old-activity-item {
+     border: 1px solid red;
 }
 
 @media (max-width: 576px) {

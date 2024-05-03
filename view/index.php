@@ -446,7 +446,8 @@
                 loop: true,
                 dots: true,
                 autoplay: true,
-                autoplayTimeout: 10000
+                autoplayTimeout: 10000,
+                mouseDrag: false
             });
 
             $(".review-carousel").owlCarousel({

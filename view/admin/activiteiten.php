@@ -34,7 +34,7 @@ if(!isset($_SESSION["username"])){ header("Location: index.php"); }
     </nav>
 
     <div class="container-fluid">
-        <div class="row mt-5">
+        <div class="row mt-5 mb-5">
             <div class="col-md-4">
                 <div class="form-wrapper shadow mx-auto py-5">
                     <h3 class="highest_text">VOEG EEN NIEUWE ACTIVITEIT TOE</h3>
@@ -47,7 +47,7 @@ if(!isset($_SESSION["username"])){ header("Location: index.php"); }
                     </form>
                 </div>
             </div>
-            <div class="col-md-8 activity-wrapper">
+            <div class="col-md-8 activity-wrapper mb-5">
 
                 <div class="row px-3 mb-4">
                     <div class="col-md-4">
@@ -76,7 +76,7 @@ if(!isset($_SESSION["username"])){ header("Location: index.php"); }
                         while($row = $result->fetch_assoc()) {
                             echo "
                             <div class='col-md-6 mb-3'>
-                                <div class='activity-item shadow'>
+                                <div class='activity-item shadow ".($row["date"] < date("Y-m-d") ? "old-activity-item" : "")."'>
                                     <a class='ai-delete' href='actions/delete-activity.php?id=".$row["id"]."'><i class='bi bi-trash-fill'></i></a>
                                     <h1 class='highest_text'>".$row["name"]."</h1>
                                     <br><br>
