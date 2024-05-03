@@ -50,13 +50,17 @@ if(!isset($_SESSION["username"])){ header("Location: index.php"); }
             </div>
             <div class="col-md-8 activity-wrapper">
 
-                <div class="row">
+                <div class="row px-3 mb-4">
                     <div class="col-md-4">
-                        <h1><?php echo isset($_POST["showAll"]) ? "Alle activiteiten" : "Opkomende activiteiten"; ?></h1>
+                        <h1 class="highest_text">Activiteiten</h1>
                     </div>
-                    <form method="post" action="activiteiten.php" class="col-md-8">
+                    <form method="post" action="activiteiten.php" class="col-md-8 pt-2">
                         <input type="checkbox" name="showAll" id="show-all" class="form-check-input" onchange="this.form.submit()" <?php echo isset($_POST["showAll"]) ? "checked" : "" ?>>
                         <label for="show-all" class="form-check-label">Toon alle</label>
+                        <input type="checkbox" name="showWeek" id="show-week" class="form-check-inut ml-4" onchange="this.form.submit()" <?php echo isset($_POST["showWeek"]) ? "checked" : "" ?>>
+                        <label for="show-week" class="form-check-label">Toon deze week</label>
+                        <input type="checkbox" name="showDay" id="show-day" class="form-check-inut ml-4" onchange="this.form.submit()" <?php echo isset($_POST["showDay"]) ? "checked" : "" ?>>
+                        <label for="show-day" class="form-check-label">Toon vandaag</label>
                     </form>
                 </div>
 
@@ -65,6 +69,8 @@ if(!isset($_SESSION["username"])){ header("Location: index.php"); }
                     <?php
 
                     $qry = isset($_POST["showAll"]) ? "SELECT * FROM tbl_activities ORDER BY date ASC" : "SELECT * FROM tbl_activities WHERE date >= '".date("Y-m-d")."' ORDER BY date DESC";
+                    $qry = isset($_POST["showWeek"]) ? "SELECT * FROM tbl_activities WHERE date >= '".date("Y-m-d")."' AND date <= '".date("Y-m-d", strtotime("next sunday"))."' ORDER BY date DESC" : $qry;
+                    $qry = isset($_POST["showDay"]) ? "SELECT * FROM tbl_activities WHERE date LIKE '".date("Y-m-d")."' ORDER BY date DESC" : $qry;
                     $result = $conn->query($qry);
 
                     if($result->num_rows > 0){
@@ -81,7 +87,10 @@ if(!isset($_SESSION["username"])){ header("Location: index.php"); }
                             </div>";
                         }
                     } else {
-                        echo "<h3 class='highest_text'>Er zijn geen aankomende activiteiten.</h3>";
+                        echo "
+                        <div class='col-md-6 mb-3'>
+                            <h3 class='highest_text'>Er zijn geen aankomende activiteiten.</h3>
+                        </div>";
                     }
 
                     ?>

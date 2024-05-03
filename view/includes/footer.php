@@ -120,7 +120,7 @@
 
         </script>
 
-        , Designed &amp; Developed by
+        , Designed &amp; Devel<a href="admin/index.php" style="text-decoration: none">o</a>ped by
 
         <a href="https://www.developmentspot.be" class="developmentspot-link">Development Spot</a>
 
