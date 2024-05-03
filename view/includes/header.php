@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/bootstrap-icons.min.css">
     <!-- JAVASCRIPT LIBRARIES -->
     <script src="js/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/vanilla-calendar.min.js"></script>
     <script src="js/aos.js"></script>

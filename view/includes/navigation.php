@@ -6,13 +6,21 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="nav-items-collapse">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link hover-underline-animation active" href="index.php">Home</a>
-                <a class="nav-item nav-link hover-underline-animation" href="afdelingen.php">Afdelingen</a>
-                <a class="nav-item nav-link hover-underline-animation" href="agenda.php">Agenda</a>
-                <a class="nav-item nav-link hover-underline-animation" href="overons.php">Over ons</a>
-                <a class="nav-item nav-link hover-underline-animation" href="contact.php">Contact</a>
-            </div>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link hover-underline-animation" href="index.php">Home</a></li>
+                <li class="nav-item"><a class="nav-link hover-underline-animation" href="afdelingen.php">Afdelingen</a></li>
+                <li class="nav-item"><a class="nav-link hover-underline-animation" href="agenda.php">Agenda</a></li>
+                <li class="nav-item"><a class="nav-link hover-underline-animation" href="overons.php">Over ons</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown-items" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vragen</a>
+                    <div class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdown-items">
+                        <a class="dropdown-item" href="vragen.php">Algemeen</a>
+                        <a class="dropdown-item" href="vragen-assistentie.php">Assistentie</a>
+                        <a class="dropdown-item" href="vragen-dagverblijf.php">Dagverblijf</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link hover-underline-animation" href="contact.php">Contact</a></li>
+            </ul>
         </div>
     </div>
 </nav>

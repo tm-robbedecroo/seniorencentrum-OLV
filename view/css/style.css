@@ -1038,7 +1038,7 @@ button {
      }
 }
 
-.nav-item {
+.nav-link {
      color: white !important;
      font-size: 18px;
      padding: 0 !important;
@@ -1058,6 +1058,11 @@ button {
 
 .mobile {
      display: none;
+}
+
+.vanilla-calendar {
+     min-width: 350px;
+     height: 350px !important;
 }
 
 @media (max-width: 576px) {
@@ -1102,5 +1107,8 @@ button {
      }
      .banner_title {
           font-size: 34px;
+     }
+     .day-activity {
+          text-align: center;
      }
 }
