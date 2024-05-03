@@ -34,6 +34,8 @@
             background-color: #67BB87;
             border-color: #67BB87;
             color: #fff;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
         }
         .login-container .input-group-text i {
             color: #fff;

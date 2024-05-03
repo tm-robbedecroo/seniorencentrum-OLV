@@ -53,13 +53,15 @@ if(!isset($_SESSION["username"])){ header("Location: index.php"); }
                     <div class="col-md-4">
                         <h1 class="highest_text">Activiteiten</h1>
                     </div>
-                    <form method="post" action="activiteiten.php" class="col-md-8 pt-2">
-                        <input type="checkbox" name="showAll" id="show-all" class="form-check-input" onchange="this.form.submit()" <?php echo isset($_POST["showAll"]) ? "checked" : "" ?>>
-                        <label for="show-all" class="form-check-label">Toon alle</label>
-                        <input type="checkbox" name="showWeek" id="show-week" class="form-check-inut ml-4" onchange="this.form.submit()" <?php echo isset($_POST["showWeek"]) ? "checked" : "" ?>>
-                        <label for="show-week" class="form-check-label">Toon deze week</label>
-                        <input type="checkbox" name="showDay" id="show-day" class="form-check-inut ml-4" onchange="this.form.submit()" <?php echo isset($_POST["showDay"]) ? "checked" : "" ?>>
-                        <label for="show-day" class="form-check-label">Toon vandaag</label>
+                    <form method="post" action="activiteiten.php" class="col-md-8 pt-2 text-right">
+                        <input type="radio" name="filter" id="show-all" class="form-check-input" value="all" onchange="this.form.submit()" <?php echo !isset($_POST["filter"]) || $_POST["filter"] == "all" ? "checked" : "" ?>>
+                        <label for="show-all" class="form-check-label mr-5">Toon alle</label>
+                        <input type="radio" name="filter" id="show-upcoming" class="form-check-input" value="upcoming" onchange="this.form.submit()" <?php echo isset($_POST["filter"]) && $_POST["filter"] == "upcoming" ? "checked" : "" ?>>
+                        <label for="show-upcoming" class="form-check-label mr-5">Toon komende</label>
+                        <input type="radio" name="filter" id="show-week" class="form-check-input" value="week" onchange="this.form.submit()" <?php echo isset($_POST["filter"]) && $_POST["filter"] == "week" ? "checked" : "" ?>>
+                        <label for="show-week" class="form-check-label mr-5">Toon deze week</label>
+                        <input type="radio" name="filter" id="show-day" class="form-check-input" value="day" onchange="this.form.submit()" <?php echo isset($_POST["filter"]) && $_POST["filter"] == "day" ? "checked" : "" ?>>
+                        <label for="show-day" class="form-check-label mr-5">Toon vandaag</label>
                     </form>
                 </div>
 
@@ -67,9 +69,27 @@ if(!isset($_SESSION["username"])){ header("Location: index.php"); }
 
                     <?php
 
-                    $qry = isset($_POST["showAll"]) ? "SELECT * FROM tbl_activities ORDER BY date ASC" : "SELECT * FROM tbl_activities WHERE date >= '".date("Y-m-d")."' ORDER BY date DESC";
-                    $qry = isset($_POST["showWeek"]) ? "SELECT * FROM tbl_activities WHERE date >= '".date("Y-m-d")."' AND date <= '".date("Y-m-d", strtotime("next sunday"))."' ORDER BY date DESC" : $qry;
-                    $qry = isset($_POST["showDay"]) ? "SELECT * FROM tbl_activities WHERE date LIKE '".date("Y-m-d")."' ORDER BY date DESC" : $qry;
+                    $qry = "SELECT * FROM tbl_activities ORDER BY date ASC, time ASC";
+
+                    if(isset($_POST["filter"])){
+                        $filter = $_POST["filter"];
+
+                        switch($filter) {
+                            case "upcoming":
+                                $qry = "SELECT * FROM tbl_activities WHERE date >= '".date("Y-m-d")."' ORDER BY date DESC, time ASC;";
+                                break;
+                            case "week":
+                                $qry = "SELECT * FROM tbl_activities WHERE date >= '".date("Y-m-d")."' AND date <= '".date("Y-m-d", strtotime("next sunday"))."' ORDER BY date DESC, time ASC;";
+                                break;
+                            case "day":
+                                $qry = "SELECT * FROM tbl_activities WHERE date LIKE '".date("Y-m-d")."' ORDER BY time ASC;";
+                                break;
+                            default:
+                                $qry = "SELECT * FROM tbl_activities ORDER BY date ASC, time ASC";
+                                break;
+                        }
+                    }
+
                     $result = $conn->query($qry);
 
                     if($result->num_rows > 0){

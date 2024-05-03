@@ -30,7 +30,7 @@
 }
 
 .activity-item h1 {
-    width: max-content;
+    max-width: 100%;
     display: block;
 }
 
@@ -44,4 +44,5 @@
     right: 2rem;
     font-size: 20px;
     color: red;
+    z-index: 9999 !important;
 }

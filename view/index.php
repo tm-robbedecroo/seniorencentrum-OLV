@@ -429,7 +429,8 @@
             AOS.init({
                 duration: 1000,
                 offset: 100,
-                once: true
+                once: true,
+                delay: 0
             });
 
             $(".activity-carousel").owlCarousel({
