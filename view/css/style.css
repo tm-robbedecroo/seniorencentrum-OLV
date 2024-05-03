@@ -1091,6 +1091,29 @@ button {
      border: 1px solid red;
 }
 
+@media (min-width: 576px) and (max-width: 1200px) {
+     .banner-image-fix {
+          display: none;
+     }
+     .banner-section {
+          background-image: none;
+          background-color: #67BB87 !important;
+          height: 100% !important;
+          width: 100% !important;
+          background-size: cover !important;
+          background-repeat: repeat !important;
+     }
+     .banner_bg {
+          height: auto;
+          padding-bottom: 5rem;
+          width: 100vw;
+          background-color: #67BB87;
+     }
+     .banner-no-show {
+          display: none;
+     }
+}
+
 @media (max-width: 576px) {
      .desktop {
           display:none;

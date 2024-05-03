@@ -6,7 +6,7 @@
     <div class="banner_section">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6 padding_0 banner_bg banner-carousel owl-carousel owl-theme">
+                <div class="col-md-12 col-lg-12 col-xl-6 padding_0 banner_bg banner-carousel owl-carousel owl-theme">
                     <div class="carousel-item active">
                         <div class="banner_title_main">
                             <h1 class="banner_title">Woonzorgcentrum<br>
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 padding_0">
+                <div class="col-md-6 padding_0 banner-no-show">
                     <div class="banner_img banner-image-fix"></div>
                 </div>
             </div>
