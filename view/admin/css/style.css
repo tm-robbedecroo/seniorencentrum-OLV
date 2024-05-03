@@ -1,0 +1,47 @@
+.navbar {
+    background-color: #67BB87 !important;
+}
+
+.navbar img {
+    height: 100px;
+}
+
+.navbar form input {
+    margin-left: 1rem;
+}
+
+.form-wrapper {
+    margin: 0 auto;
+    left: 2rem;
+    background-color: white;
+    border: 1px solid white;
+    padding: 1rem 3rem;
+    border-radius: 10px;
+}
+
+.activity-wrapper {
+    border-left: 1px solid rgba(0,0,0, .1);
+}
+
+.activity-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.activity-item h1 {
+    width: max-content;
+    display: block;
+}
+
+.activity-item p {
+    width: 100%;
+}
+
+.activity-item .ai-delete {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 20px;
+    color: red;
+}
