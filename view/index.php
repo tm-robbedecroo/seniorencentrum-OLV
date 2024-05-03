@@ -82,6 +82,9 @@
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
+                <div class="col-md-6 mobile mb-4">
+                    <div class="image_2" href="#"><img src="./images/woonzorgcentrum.jpg"></div>
+                </div>
                 <div class="col-md-6 vertical-center">
                     <div class="about_title">
                         <h4 class="about_text mb-0">Over SOLV</h4>
@@ -106,46 +109,13 @@
                         <div class="read_bt"><a href="overons.php">Lees meer</a></div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 desktop">
                     <div class="image_2" href="#"><img src="./images/woonzorgcentrum.jpg"></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="about_section_mobile mt-5">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="image_2 mt-5" href="#"><img src="./images/woonzorgcentrum.jpg"></div>
-                </div>
-                <div class="col-md-6 mt-4 vertical-center">
-                    <div class="about_title">
-                        <h4 class="about_text mb-0">Over SOLV</h4>
-                        <h1 class="highest_text mt-0">Algemeen</h1>
-                        <p class="lorem_text">Het Seniorencentrum SOLV staat bekend om zijn oprechte toewijding aan
-                            ouderenzorg en het bieden van een warme thuisomgeving waarin bewoners zich geliefd en
-                            verzorgd voelen.
-                            Of het nu gaat om zelfstandige senioren die nog actief willen blijven of om ouderen die
-                            volledig afhankelijk
-                            zijn van zorg, bij SOLV vinden zij de juiste ondersteuning op maat. Bewoners hebben
-                            verschillende opties,
-                            variërend van permanente woonzorg tot assistentiewoningen, herstelverblijven en
-                            dagverzorging.
-                            Onze focus ligt op het bieden van persoonlijke zorg van hoge kwaliteit, waarbij het welzijn
-                            en
-                            de individuele behoeften van elke bewoner centraal staan. Met ons deskundige en toegewijde
-                            team
-                            van zorgprofessionals streven we ernaar om een gelukkige en vervulde levenservaring te
-                            bieden,
-                            zelfs in de gouden jaren van onze bewoners.
-                        </p>
-                        <div class="read_bt"><a href="overons.php">Lees meer</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- about section end -->
     <!-- care section start -->
     <div class="care_section mt-5 py-5">
@@ -198,7 +168,7 @@
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 mb-4">
                     <div class="image_2" href=""><img src="./images/woonzorgflat.jpg"></div>
                 </div>
                 <div class="col-md-6 vertical-center">
@@ -231,46 +201,14 @@
         </div>
     </div>
 
-    <div class="about_section_mobile mt-5">
-        <div class="container-fluid mt-5">
-            <div class="row mt-5">
-                <div class="col-md-6">
-                    <div class="image_2 mt-5" href=""><img src="./images/woonzorgflat.jpg"></div>
-                </div>
-                <div class="col-md-6 mt-4 vertical-center">
-                    <div class="mirrored_title">
-                        <h4 class="about_text mb-0">Kamers</h4>
-                        <h1 class="highest_text mt-0">Woonzorgkamer</h1>
-                        <p class="lorem_text">Wanneer ouderen merken dat zelfstandig wonen steeds
-                            moeilijker wordt,
-                            kan een woonzorgkamer een gepaste oplossing bieden. Dit type aangepaste woonvorm biedt
-                            voortdurende zorg,
-                            waaronder maaltijden, huishoudelijke hulp en persoonlijke verzorging. Bovendien creëert het
-                            een comfortabele
-                            en ondersteunende omgeving waarin ouderen niet alleen essentiële zorg ontvangen, maar ook
-                            kunnen genieten
-                            van een gevoel van veiligheid, geborgenheid en gemeenschap.</p>
-                        <h1 class="highest_text mt-3">Woonzorgflat </h1>
-                        <p class="lorem_text">Voor diegenen die streven naar een continue zorgservice zoals die van een
-                            woonzorgkamer
-                            maar behoefte hebben aan meer ruimte, biedt de woonzorgflat een geschikte oplossing. Met een
-                            aparte slaapkamer,
-                            badkamer, leefruimte en kitchenette, gecombineerd met de hoteldiensten van een
-                            woonzorgkamer, biedt de woonzorgflat
-                            een comfortabele en ruimere woonsituatie. Deze opzet zorgt niet alleen voor de noodzakelijke
-                            zorg, maar ook voor een
-                            gevoel van privacy en autonomie binnen een ondersteunende omgeving.</p>
-                        <div class="read_bt mt-3"><a href="woonzorgcentrum.php">Lees meer</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- about section end -->
     <!--about section start-->
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
+                <div class="col-md-6 mb-4 mobile">
+                    <div class="image_2" href="#"><img src="./images/tijdelijkverblijf.jpg"></div>
+                </div>
                 <div class="col-md-6 vertical-center">
                     <div class="about_title">
                         <h4 class="about_text">Soorten verblijf</h4>
@@ -286,43 +224,19 @@
                         <div class="read_bt mt-3"><a href="tijdelijkverblijf.php">Lees meer</a></div>
                     </div>
                 </div>
-                <div class="col-md-6 elements-center">
+                <div class="col-md-6 desktop">
                     <div class="image_2" href="#"><img src="./images/tijdelijkverblijf.jpg"></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="about_section_mobile mt-5">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 elements-center">
-                    <div class="image_2 mt-4" href="#"><img src="./images/tijdelijkverblijf.jpg"></div>
-                </div>
-                <div class="col-md-6 vertical-center mt-4">
-                    <div class="about_title">
-                        <h4 class="about_text">Soorten verblijf</h4>
-                        <h1 class="highest_text">Tijdelijk verblijf</h1>
-                        <p class="lorem_text">Wens je na een ziekenhuisopname nog extra zorgondersteuning? Gaan je
-                            familieleden op
-                            reis of zijn ze tijdelijk ziek waardoor ze even niet kunnen helpen? Wordt de zorg voor uw
-                            mantelzorger even
-                            te zwaar en wens je deze wat rust te gunnen? Dan is een opname in ons aangemeld
-                            herstelverblijf misschien
-                            wel de oplossing voor je.
-                        </p>
-                        <div class="read_bt mt-3"><a href="tijdelijkverblijf.php">Lees meer</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- about section end -->
     <!-- about section start -->
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 mb-4">
                     <div class="image_2" href="#"><img src="./images/we-are-never-too-old-play-cards.jpg"></div>
                 </div>
                 <div class="col-md-6 vertical-center">
@@ -347,38 +261,14 @@
         </div>
     </div>
 
-    <div class="about_section_mobile">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="image_2 mt-5" href="#"><img src="./images/we-are-never-too-old-play-cards.jpg"></div>
-                </div>
-                <div class="col-md-6 vertical-center mt-4">
-                    <div class="about_title">
-                        <h4 class="about_text">Soorten verblijf</h4>
-                        <h1 class="highest_text">Dag verblijf </h1>
-                        <p class="lorem_text">Het centrum voor dagverzorging (CVD) bevindt zich naast het
-                            woonzorgcentrum. Ouderen
-                            kunnen er tijdens weekdagen van 8u30 tot 16u30 verblijven voor een aangename (halve) dag in
-                            huiselijke
-                            sfeer.
-                            Naast een zinvolle dagbesteding is er ruime aandacht voor het medische aspect. Zo krijgen de
-                            gasten
-                            ondersteuning bij het medicatiegebeuren, begeleiding naar het toilet, maaltijdbegeleiding …
-                            Op deze manier kunnen ook de mantelzorgers even op adem komen.
-
-                        </p>
-                        <div class="read_bt mt-3"><a href="centrumdagverzorging.php">Lees meer</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- about section end -->
     <!--about section start-->
     <div class="about_section mt-5">
         <div class="container-fluid">
             <div class="row">
+                <div class="col-md-6 mobile mb-4">
+                    <div class="image_2" href="#"><img src="./images/assistentiewoningen.jpg"></div>
+                </div>
                 <div class="col-md-6 vertical-center">
                     <div class="about_title">
                         <h4 class="about_text">Diensten</h4>
@@ -400,47 +290,18 @@
                         <div class="read_bt mt-3"><a href="assistentiewoningen.php">Lees meer</a></div>
                     </div>
                 </div>
-                <div class="col-md-6 elements-center">
+                <div class="col-md-6 desktop">
                     <div class="image_2" href="#"><img src="./images/assistentiewoningen.jpg"></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="about_section_mobile">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 elements-center">
-                    <div class="image_2 mt-5" href="#"><img src="./images/assistentiewoningen.jpg"></div>
-                </div>
-                <div class="col-md-6 vertical-center mt-4">
-                    <div class="about_title">
-                        <h4 class="about_text">Diensten</h4>
-                        <h1 class="highest_text">Assistentiewoningen</h1>
-                        <p class="lorem_text">Onze assistentiewoningen bieden zelfstandig wonen aan voor personen die
-                            voldoende
-                            zelfredzaam zijn, maar toch in een veilige omgeving willen wonen met de nodige diensten en
-                            zorg binnen
-                            handbereik.
-                            Deze woonvorm richt zich uitsluitend naar zelfredzame personen : personen die in staat zijn
-                            om zich
-                            zelfstandig te verplaatsen (eventueel mits het gebruik van hulpmiddelen) en die zelf hun
-                            leven en huishouden
-                            kunnen organiseren, hierbij eventueel ondersteund door thuiszorgdiensten zoals
-                            thuisverpleging, poetshulp en
-                            bejaardenhulp.
-
-                        </p>
-                        <div class="read_bt mt-3"><a href="assistentiewoningen.php">Lees meer</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- about section end -->
 
     <div class="services_section mt-5">
         <div class="container">
+
             <div class="row">
                 <div class="col-md-6 text-center">
                     <div class="service-box shadow p-5 mx-0 text-center text-white" id="service-box-1">
@@ -459,8 +320,10 @@
                         <p class="mx-0 mt-0 mb-0">Wij zijn 24/7 geopend! Wil je een rondleiding of meer uitleg omtrent de werking? Maak dan een afspraak.</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-12 p-5 pb-0">
+            <div class="row">
+                <div class="col-12 px-5 pt-5 pb-0">
                     <div class="row">
                         <div class="col-12 text-center">
                             <div class="call_image"><i class="bi bi-calendar2-check" style="font-size: 40px; color: #67BB87;"></i></div>
@@ -468,7 +331,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 activity-carousel owl-carousel owl-theme text-center"">
+                        <div class="col-12 activity-carousel owl-carousel owl-theme text-center">
                             <?php
 
                             include "admin/actions/connect.php";
@@ -482,11 +345,11 @@
 
                             while ($row = $result->fetch_assoc()) {
                                 echo "
-                                <div class='activity-carousel-item'>
-                                    <p class='mb-0'>".date("j/n/Y", strtotime($row["date"]))." ".($row["time"] == "" ? "Hele dag" : "vanaf ".$row["time"])."</p>
-                                    <h2 class='my-0 fw-bold' style='color: #67BB87'>".$row["name"]."</h2>
-                                    <p class='mt-0 mb-0'>".$row["description"]."</p>
-                                </div>";
+                            <div class='activity-carousel-item'>
+                                <p class='mb-0'>".date("j/n/Y", strtotime($row["date"]))." ".($row["time"] == "" ? "Hele dag" : "vanaf ".$row["time"])."</p>
+                                <h2 class='my-0 fw-bold' style='color: #67BB87'>".$row["name"]."</h2>
+                                <p class='mt-0 mb-0'>".$row["description"]."</p>
+                            </div>";
                             }
 
                             ?>
@@ -497,8 +360,6 @@
         </div>
     </div>
 
-    <!-- services section end -->
-    <!-- contact section start -->
     <div class="contact_section mt-5 pt-5">
         <div class="container">
             <div class="row">
@@ -518,7 +379,7 @@
                             <textarea class="message-bt" placeholder="Bericht" rows="5" id="comment" name="text"></textarea>
                         </div>
                     </form>
-                    <div class="main_bt"><a href="#">Verstuur</a></div>
+                    <div class="main_bt mb-5"><a href="#">Verstuur</a></div>
                 </div>
                 <div class="col-md-6">
                     <div class="row">

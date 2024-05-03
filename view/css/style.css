@@ -1056,15 +1056,15 @@ button {
      border-radius: 8px;
 }
 
-.about_section_mobile {
+.mobile {
      display: none;
 }
 
 @media (max-width: 576px) {
-     .about_section {
+     .desktop {
           display:none;
      }
-     .about_section_mobile {
+     .mobile {
           display: block;
      }
      .banner-image-fix {
