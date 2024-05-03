@@ -27,9 +27,9 @@ if(!isset($_SESSION["username"])){ header("Location: index.php"); }
 </head>
 <body>
 
-    <nav class="navbar navbar-light bg-light justify-content-between">
-        <div class="container-fluid">
-            <a class="navbar-brand mx-auto" href="#"><img src="../images/solv-tekst-white.png"></a>
+    <nav class="navbar navbar-light bg-light d-flex justify-content-center">
+        <div class="container">
+            <a class="navbar-brand mx-auto" href="../index.php"><img src="../images/solv-tekst-white.png"></a>
         </div>
     </nav>
 
