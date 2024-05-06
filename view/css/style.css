@@ -954,9 +954,14 @@ button {
      cursor: pointer;
 }
 
-.nav-item.active > .hover-underline-animation:after {
-     transform: scaleX(1);
-     transform-origin: bottom left;
+.nav-item.active {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #fff,0 0 92px #fff;
+     font-weight: 400;
+}
+
+.nav-item:hover {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #fff,0 0 92px #fff;
+     font-weight: 400;
 }
 
 .hover-overline-animation {

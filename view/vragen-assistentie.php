@@ -1,3 +1,4 @@
+<?php $page_name = "vragen"; ?>
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/navigation.php'; ?>
 
