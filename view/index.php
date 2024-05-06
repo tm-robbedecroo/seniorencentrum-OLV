@@ -336,20 +336,35 @@
 
                             include "admin/actions/connect.php";
 
+                            $now = time();
+
                             $prev_monday = date("Y-m-d", strtotime("last monday"));
                             $today       = date("Y-m-d", strtotime("now"));
                             $next_sunday = date("Y-m-d", strtotime($prev_monday." + 6 days"));
 
+                            if(date("D", $now) == "Mon") {
+                                $prev_monday = date("Y-m-d", strtotime("now"));
+                                $next_sunday = date("Y-m-d", strtotime($prev_monday." + 6 days"));
+                            }
+
                             $qry = "SELECT * FROM tbl_activities WHERE date >= '".$today."' AND date <= '".$next_sunday."' ORDER BY date ASC, time ASC;";
                             $result = $conn->query($qry);
 
+                            if($result->num_rows == 0) {
+                                echo "
+                                <div class='activity-carousel-item'>
+                                    <h2 class='mb-0 fw-bold'>Geen activiteiten</h2>
+                                    <p class='mt-0 mb-0'>Er zijn deze week nog geen activiteiten gepland.</p>
+                                </div>";
+                            }
+
                             while ($row = $result->fetch_assoc()) {
                                 echo "
-                            <div class='activity-carousel-item'>
-                                <p class='mb-0'>".date("j/n/Y", strtotime($row["date"]))." ".($row["time"] == "" ? "Hele dag" : "vanaf ".$row["time"])."</p>
-                                <h2 class='my-0 fw-bold' style='color: #67BB87'>".$row["name"]."</h2>
-                                <p class='mt-0 mb-0'>".$row["description"]."</p>
-                            </div>";
+                                <div class='activity-carousel-item'>
+                                    <p class='mb-0'>".date("j/n/Y", strtotime($row["date"]))." ".($row["time"] == "" ? "Hele dag" : "vanaf ".$row["time"])."</p>
+                                    <h2 class='my-0 fw-bold' style='color: #67BB87'>".$row["name"]."</h2>
+                                    <p class='mt-0 mb-0'>".$row["description"]."</p>
+                                </div>";
                             }
 
                             ?>
