@@ -44,7 +44,16 @@
     right: 2rem;
     font-size: 20px;
     color: red;
-    z-index: 9999 !important;
+    z-index: 1 !important;
+}
+
+.activity-item .ai-edit {
+    position: absolute;
+    top: 1rem;
+    right: 4rem;
+    font-size: 20px;
+    color: orange;
+    z-index: 1 !important;
 }
 
 @media (max-width: 576px) {
